@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
 .App {
+  font-family: 'Rubik', sans-serif;
   text-align: center;
+}
+body{
+  margin: 0;
 }
 
 .App-logo {
@@ -12,7 +18,24 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.inputArea{
+  height: 30vh;
+  background-color: #4f46e5;
+}
+.buttonGrpAdd{
+  font-family: 'Rubik', sans-serif;
+  color:  #4f46e5;
+  padding:10px 30px;
+  font-size: medium;
+  border: none;
+  background-color: white;
+  height: 43px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px; 
+  border-radius: 3px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +50,25 @@
 .App-link {
   color: #61dafb;
 }
+#inputBox{
+  font-family: 'Rubik', sans-serif;
+  height: 40px;
+  width: 400px;
+  margin-right: 0%;
+  margin-top: 3%;
+  border-radius: 3px;
+}
+.buttonGrp{
+  font-family: 'Rubik', sans-serif;
+  background-color: #6671e5;
+  color: white;
+  padding:10px 30px;
+  font-size: medium;
+  border: none;
+  border-radius: 3px;
+  margin-left: 4px;
+}
+
 
 @keyframes App-logo-spin {
   from {
